@@ -1,0 +1,45 @@
+
+   
+      #container{
+        position: relative;
+        width: 820px;
+        height:220px;
+        margin:50px 100px 0px 160px;
+        overflow: hidden;
+
+      }
+      #list{
+        position: absolute;
+        width: 1500px;
+        height: 220px;
+        transition:all 0.5s ease;
+        -moz-transition:all 0.5s ease;
+        -webkit-transition:all 0.5s ease;
+        -o-transition:all 0.5s ease;
+      }
+      @media screen and (max-width: 700px){
+       #container{
+        width: 200px;
+        margin:1px auto ;
+       }
+     }
+     .bin{
+      width: 95%;
+      height: 200px;
+      margin: 0px auto;
+      position: relative;
+
+     }
+      #list img{
+        float: left;
+        margin-left: 5px;
+        width: 200px;
+        height: 220px;
+      }
+      #next{
+        float: right;
+      }
+      #prev{
+        margin-left: 10px;
+      }
+
